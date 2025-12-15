@@ -1,0 +1,18 @@
+# --- General ---
+.DS_Store
+*.log
+*.vcd
+*.vpd
+__pycache__/
+
+# --- OpenLane / Sky130 Junk ---
+runs/
+*.def
+*.lef
+*.gds
+!spm.gds
+
+# --- Silvaco Junk ---
+*.his
+*.str
+*.set
